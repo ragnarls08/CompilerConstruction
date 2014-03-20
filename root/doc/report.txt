@@ -1,0 +1,10 @@
+shift reduce conflict in if else..
+	the famous dangling else problem! 
+
+http://ezekiel.vancouver.wsu.edu/~cs355/lectures/syntax-semantics/synsem.pdf
+
+In practice, the dangling-else ambiguity is intentionally left unresolved in the language's grammar;
+explicitly xing the grammar (as above) makes the grammar less readable. It is assumed that
+the programmer and language implementor is aware of the ambiguity and knows how resolve
+the problem. A good example is the grammar listed in the appendix the famous Kernighan and
+Ritchie book The C Programming Language.
